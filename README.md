@@ -1,3 +1,18 @@
+# FTEC5660 Project 2: LiTS crossword reproduction
+
+This fork contains a scoped, model-substituted reproduction of the LiTS crossword chain and one crossing-consistency prompt intervention: 30 fixed puzzles, three trials per condition, and complete raw evidence.
+
+- [Project instructions and results](reproduction/README.md)
+- [Report PDF](reproduction/FTEC5660_Reproducibility_Report.pdf)
+- [Pre-run protocol](reproduction/PROTOCOL.md)
+- [Experiment and prompt modification](reproduction/run.py)
+- [Offline evidence audit](reproduction/audit.py)
+- [Recording notes](reproduction/recording_notes_zh.txt)
+
+The original framework, license, and documentation are retained below. This project does not claim an exact numerical replication of the original paper because the model, sample, and execution settings differ. AI assistance was used for implementation, analysis, and drafting; the submission owner reviews and presents the work personally.
+
+---
+
 # LiTS — Language Inference via Tree Search
 
 A modular Python framework for LLM reasoning and planning with tree search (e.g., MCTS, BFS and other custom search algorithms) and chain reasoning (e.g.,ReAct).
