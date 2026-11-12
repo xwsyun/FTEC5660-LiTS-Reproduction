@@ -130,6 +130,9 @@ class OpenAIChatModel(LanguageModel):
         is_custom_endpoint = self.client.base_url and "api.openai.com" not in str(self.client.base_url)
         if is_custom_endpoint and not self.enable_thinking:
             extra_body = {"chat_template_kwargs": {"enable_thinking": False}}
+        # DeepSeek has its own thinking-mode switch; apply equally to both arms.
+        if self.client.base_url.host == "api.deepseek.com":
+            extra_body = {"thinking": {"type": "enabled" if self.enable_thinking else "disabled"}}
 
         tool_options = {}
         if tools:
