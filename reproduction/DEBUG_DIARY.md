@@ -18,3 +18,8 @@
 - During measured-run inspection, a terminal action-error step without next_state was found to make EnvState.env_state fall back to init_state. The measured run keeps this behavior unchanged. A post-hoc audit reports the last valid trajectory board as a separate diagnostic.
 - Some responses include explanations or invalid word lengths despite the action-only instruction. These are model action failures, retained in the outcomes. Upstream retries can increase actual calls beyond the ten-step limit.
 - audit.py reconstructs each logged prompt from the current observed state and the fixed intervention, checks valid-response alignment to trajectory actions, and independently recomputes row/column scores.
+
+## 2026-11-13: interrupted process recovery
+
+- The process was no longer running after 173 completed jobs. Seven unfinished jobs in modified trial 3 were resumed without rerunning completed outcomes. Partial trace directories remain preserved; retries use separate timestamped directories.
+- Completed-job token totals exclude abandoned partial traces. The overnight interruption is a temporal comparability limitation and is disclosed in the report.

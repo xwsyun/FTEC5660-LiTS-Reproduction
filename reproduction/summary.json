@@ -1,0 +1,202 @@
+{
+  "config": {
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "dataset_sha256": "50590d5886fac5e0971f483df93668a8f3c638d8312a490655b869a93d569154",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "trials": 3,
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "thinking": "disabled",
+    "max_steps": 10,
+    "max_new_tokens": 128,
+    "intervention": "\nBefore selecting the single action, check the crossing letters already on the board.\nPrefer an unfilled entry with several known letters and a confident clue match.\nChoose a word that matches both its clue and its existing crossing letters; avoid\noverwriting a confident crossing answer with a conflicting guess. If one entry\nis uncertain, choose another unfilled entry. Still output ONLY position. word.\n",
+    "upstream": "25e94d862cb4514c22d9a80a635e392461769df7"
+  },
+  "trials": [
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "n": 30,
+      "word_accuracy": 0.28,
+      "puzzle_accuracy": 0.03333333333333333,
+      "calls": 353,
+      "input_tokens": 104530,
+      "output_tokens": 5857,
+      "mean_seconds": 17.914452691595457,
+      "invalid_action_jobs": 4
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "n": 30,
+      "word_accuracy": 0.28,
+      "puzzle_accuracy": 0.03333333333333333,
+      "calls": 341,
+      "input_tokens": 100869,
+      "output_tokens": 5262,
+      "mean_seconds": 17.212020870796792,
+      "invalid_action_jobs": 4
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "n": 30,
+      "word_accuracy": 0.22666666666666666,
+      "puzzle_accuracy": 0.03333333333333333,
+      "calls": 346,
+      "input_tokens": 102589,
+      "output_tokens": 6666,
+      "mean_seconds": 17.60536650409534,
+      "invalid_action_jobs": 7
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "n": 30,
+      "word_accuracy": 0.19,
+      "puzzle_accuracy": 0,
+      "calls": 345,
+      "input_tokens": 129297,
+      "output_tokens": 7294,
+      "mean_seconds": 16.671352222166025,
+      "invalid_action_jobs": 8
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "n": 30,
+      "word_accuracy": 0.2,
+      "puzzle_accuracy": 0,
+      "calls": 353,
+      "input_tokens": 132200,
+      "output_tokens": 7841,
+      "mean_seconds": 17.373265893002586,
+      "invalid_action_jobs": 7
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "n": 30,
+      "word_accuracy": 0.16666666666666666,
+      "puzzle_accuracy": 0,
+      "calls": 357,
+      "input_tokens": 133593,
+      "output_tokens": 8821,
+      "mean_seconds": 18.743654236135384,
+      "invalid_action_jobs": 6
+    }
+  ],
+  "conditions": {
+    "baseline": {
+      "word_accuracy": {
+        "mean": 0.26222222222222225,
+        "sd": 0.030792014356780063,
+        "variance": 0.0009481481481481495
+      },
+      "puzzle_accuracy": {
+        "mean": 0.03333333333333333,
+        "sd": 0.0,
+        "variance": 0.0
+      },
+      "calls": {
+        "mean": 346.6666666666667,
+        "sd": 6.027713773341708,
+        "variance": 36.333333333333336
+      },
+      "input_tokens": {
+        "mean": 102662.66666666667,
+        "sd": 1831.6114034732732,
+        "variance": 3354800.3333333335
+      },
+      "output_tokens": {
+        "mean": 5928.333333333333,
+        "sd": 704.7129439235051,
+        "variance": 496620.3333333333
+      },
+      "mean_seconds": {
+        "mean": 17.57728002216253,
+        "sd": 0.35205717372062395,
+        "variance": 0.12394425356815361
+      },
+      "invalid_action_jobs": {
+        "mean": 5,
+        "sd": 1.7320508075688772,
+        "variance": 3
+      }
+    },
+    "crossing_prompt": {
+      "word_accuracy": {
+        "mean": 0.18555555555555556,
+        "sd": 0.017105338131489622,
+        "variance": 0.00029259259259259294
+      },
+      "puzzle_accuracy": {
+        "mean": 0,
+        "sd": 0.0,
+        "variance": 0
+      },
+      "calls": {
+        "mean": 351.6666666666667,
+        "sd": 6.110100926607787,
+        "variance": 37.333333333333336
+      },
+      "input_tokens": {
+        "mean": 131696.66666666666,
+        "sd": 2191.782911999574,
+        "variance": 4803912.333333333
+      },
+      "output_tokens": {
+        "mean": 7985.333333333333,
+        "sd": 773.6642251864392,
+        "variance": 598556.3333333334
+      },
+      "mean_seconds": {
+        "mean": 17.596090783768,
+        "sd": 1.0539673183898206,
+        "variance": 1.1108471082338294
+      },
+      "invalid_action_jobs": {
+        "mean": 7,
+        "sd": 1.0,
+        "variance": 1
+      }
+    }
+  },
+  "paired_word_accuracy_deltas": [
+    -0.09000000000000002,
+    -0.08000000000000002,
+    -0.06
+  ]
+}

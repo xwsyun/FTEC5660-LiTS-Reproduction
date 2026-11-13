@@ -1,0 +1,1851 @@
+{
+  "status": "PASS",
+  "jobs_checked": 180,
+  "note": "Post-hoc diagnostic; primary returned-state endpoint is unchanged.",
+  "trials": [
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "last_valid_word_accuracy": 0.3,
+      "invalid_responses": 70,
+      "state_fallback_jobs": 4
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "last_valid_word_accuracy": 0.30333333333333334,
+      "invalid_responses": 61,
+      "state_fallback_jobs": 4
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "last_valid_word_accuracy": 0.2633333333333333,
+      "invalid_responses": 87,
+      "state_fallback_jobs": 7
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "last_valid_word_accuracy": 0.20333333333333334,
+      "invalid_responses": 75,
+      "state_fallback_jobs": 8
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "last_valid_word_accuracy": 0.25,
+      "invalid_responses": 87,
+      "state_fallback_jobs": 7
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "last_valid_word_accuracy": 0.19666666666666668,
+      "invalid_responses": 80,
+      "state_fallback_jobs": 6
+    }
+  ],
+  "per_puzzle": [
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 0,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_0/puzzle_000/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 1,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_001/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 2,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_002/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 3,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_003/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 4,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_0/puzzle_004/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 5,
+      "invalid_responses": 8,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_0/puzzle_005/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 6,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_006/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 7,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_007/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 8,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_008/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 9,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_009/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 10,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_010/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 11,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_011/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 12,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.7,
+      "returned_word_accuracy": 0.7,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_012/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 13,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 1.0,
+      "returned_word_accuracy": 1.0,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_013/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 14,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_014/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 15,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_015/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 16,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_016/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 17,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_017/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 18,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_018/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 19,
+      "invalid_responses": 6,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_019/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 20,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_020/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 21,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_021/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 22,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.7,
+      "returned_word_accuracy": 0.7,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_022/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 23,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_0/puzzle_023/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 24,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_024/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 25,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_025/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 26,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_026/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 27,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_027/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 28,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_028/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 0,
+      "index": 29,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_0/puzzle_029/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 0,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_000/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 1,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_001/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 2,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.7,
+      "returned_word_accuracy": 0.7,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_002/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 3,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_003/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 4,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_1/puzzle_004/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 5,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_1/puzzle_005/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 6,
+      "invalid_responses": 7,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_1/puzzle_006/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 7,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_007/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 8,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_008/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 9,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_009/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 10,
+      "invalid_responses": 7,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_1/puzzle_010/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 11,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_011/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 12,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_012/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 13,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_013/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 14,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_014/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 15,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_015/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 16,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_016/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 17,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_017/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 18,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 1.0,
+      "returned_word_accuracy": 1.0,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_018/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 19,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_019/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 20,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_020/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 21,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_021/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 22,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_022/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 23,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_023/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 24,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_024/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 25,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_025/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 26,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_026/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 27,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_027/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 28,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_028/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 1,
+      "index": 29,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_1/puzzle_029/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 0,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_2/puzzle_000/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 1,
+      "invalid_responses": 6,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_001/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 2,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 1.0,
+      "returned_word_accuracy": 1.0,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_002/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 3,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_2/puzzle_003/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 4,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_2/puzzle_004/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 5,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_2/puzzle_005/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 6,
+      "invalid_responses": 7,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_006/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 7,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_007/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 8,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_008/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 9,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_009/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 10,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_010/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 11,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_011/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 12,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_012/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 13,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_013/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 14,
+      "invalid_responses": 6,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_014/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 15,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_015/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 16,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_016/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 17,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_017/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 18,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_018/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 19,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_019/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 20,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_020/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 21,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_2/puzzle_021/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 22,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_022/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 23,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_023/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 24,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_2/puzzle_024/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 25,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "baseline/trial_2/puzzle_025/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 26,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_026/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 27,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_027/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 28,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_028/result.json"
+    },
+    {
+      "condition": "baseline",
+      "trial": 2,
+      "index": 29,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "baseline/trial_2/puzzle_029/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 0,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_000/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 1,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_001/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 2,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_002/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 3,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_003/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 4,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_004/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 5,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_005/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 6,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_006/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 7,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_007/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 8,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_008/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 9,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_009/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 10,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_010/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 11,
+      "invalid_responses": 7,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_011/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 12,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_012/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 13,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_013/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 14,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_014/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 15,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_015/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 16,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_016/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 17,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_017/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 18,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.7,
+      "returned_word_accuracy": 0.7,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_018/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 19,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_019/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 20,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_020/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 21,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_021/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 22,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_022/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 23,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_023/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 24,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_024/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 25,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_025/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 26,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_026/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 27,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_027/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 28,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_0/puzzle_028/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 0,
+      "index": 29,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_0/puzzle_029/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 0,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_000/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 1,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_001/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 2,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_002/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 3,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_003/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 4,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_1/puzzle_004/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 5,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_005/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 6,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_006/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 7,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_007/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 8,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_1/puzzle_008/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 9,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_009/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 10,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.7,
+      "returned_word_accuracy": 0.7,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_010/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 11,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.7,
+      "returned_word_accuracy": 0.7,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_011/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 12,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_012/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 13,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_013/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 14,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_014/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 15,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.6,
+      "returned_word_accuracy": 0.6,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_015/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 16,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_1/puzzle_016/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 17,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_017/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 18,
+      "invalid_responses": 6,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_1/puzzle_018/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 19,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_019/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 20,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_020/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 21,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_021/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 22,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_1/puzzle_022/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 23,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_1/puzzle_023/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 24,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_024/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 25,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_025/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 26,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_026/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 27,
+      "invalid_responses": 6,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_1/puzzle_027/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 28,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_028/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 1,
+      "index": 29,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_1/puzzle_029/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 0,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_2/puzzle_000/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 1,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.5,
+      "returned_word_accuracy": 0.5,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_001/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 2,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_002/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 3,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_003/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 4,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_004/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 5,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_005/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 6,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_2/puzzle_006/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 7,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_2/puzzle_007/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 8,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_008/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 9,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_009/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 10,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_010/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 11,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_011/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 12,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.8,
+      "returned_word_accuracy": 0.8,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_012/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 13,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_013/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 14,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_014/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 15,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_015/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 16,
+      "invalid_responses": 5,
+      "last_valid_word_accuracy": 0.7,
+      "returned_word_accuracy": 0.7,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_016/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 17,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_017/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 18,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_018/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 19,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.1,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_019/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 20,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_2/puzzle_020/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 21,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_2/puzzle_021/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 22,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.4,
+      "returned_word_accuracy": 0.4,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_022_retry_1794555784/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 23,
+      "invalid_responses": 3,
+      "last_valid_word_accuracy": 0.1,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": true,
+      "source": "crossing_prompt/trial_2/puzzle_023/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 24,
+      "invalid_responses": 0,
+      "last_valid_word_accuracy": 0.2,
+      "returned_word_accuracy": 0.2,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_024_retry_1794555784/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 25,
+      "invalid_responses": 4,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_025_retry_1794555784/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 26,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.3,
+      "returned_word_accuracy": 0.3,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_026_retry_1794555798/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 27,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_027_retry_1794555806/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 28,
+      "invalid_responses": 2,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_028_retry_1794555806/result.json"
+    },
+    {
+      "condition": "crossing_prompt",
+      "trial": 2,
+      "index": 29,
+      "invalid_responses": 1,
+      "last_valid_word_accuracy": 0.0,
+      "returned_word_accuracy": 0.0,
+      "state_fallback": false,
+      "source": "crossing_prompt/trial_2/puzzle_029_retry_1794555816/result.json"
+    }
+  ]
+}
